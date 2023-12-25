@@ -37,7 +37,7 @@ const Main = () => {
 
     const handleAddTodo = () => {
         if (todo) {
-            dispatch(addTodo(todo));
+            dispatch(addTodo({ title: todo }));
             handleCloseModal();
         } else {
             setModalError(true);
