@@ -34,7 +34,6 @@
 
 .searchControllers {
     display: flex;
-    align-items: center;
     column-gap: 18px;
 
     @media (max-width: 470px) {
@@ -43,7 +42,7 @@
     }
 }
 
-.select {
+.headerSelect {
     @media (max-width: 470px) {
         width: 100%;
         max-width: 400px;

@@ -1,6 +1,7 @@
 @import "../../styles/variables";
 
 .Select {
+    position: relative;
     padding: 10px;
     background: $purple;
     border-radius: 5px;
@@ -10,4 +11,16 @@
     line-height: 100%;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
+
+    /* Hide the default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Add background image for the custom arrow */
+    background-image: url('../../assets/icons/drop-down-light.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px; /* Adjust the size as needed */
 }

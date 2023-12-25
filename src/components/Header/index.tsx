@@ -46,7 +46,7 @@ const Header = () => {
               placeholder="Search note..." 
              />
             <div className={styles.searchControllers}>
-            <Select options={OPTIONS} onSelect={handleFilterChange as any} className={styles.select} />
+            <Select options={OPTIONS} onSelect={handleFilterChange as any} className={styles.headerSelect} />
              <img 
               src={themeToggleIcon} 
               alt="Moon" 
