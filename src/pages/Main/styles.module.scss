@@ -1,0 +1,18 @@
+.Main {
+    position: relative;
+    height: 710px;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 32px;
+    cursor: pointer;
+}
+
+.modalErrorText {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: red;
+}

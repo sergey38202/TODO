@@ -1,0 +1,73 @@
+@import "../../styles/variables";
+
+.Todo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid $purple;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.label {
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.lightLabel {
+    color: $black;
+}
+
+.darkLabel {
+    color: $white;
+}
+
+.iconWrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    img {
+        cursor: pointer;
+    }
+}
+input[type="checkbox"] {
+    width: 26px;
+    height: 26px;
+    accent-color: $purple;
+    cursor: pointer;
+    border: 2px solid #000; 
+  }
+
+.checked {
+    color: rgba(37, 37, 37, 0.50);
+    text-decoration: line-through;
+}  
+
+.completedLight {
+    color: rgba(37, 37, 37, 0.50);
+}
+
+.completedDark {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.editInputWrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+
+    img {
+        cursor: pointer;
+    }
+}

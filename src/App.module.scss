@@ -1,0 +1,16 @@
+@import "./styles/variables";
+
+.App {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding-top: 40px;
+
+  @media (max-width: 780px) {
+    padding: 40px 30px 0 40px;
+  }
+}
+
+body.dark {
+  background-color: $black;
+}

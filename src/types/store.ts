@@ -1,0 +1,1 @@
+export type TReducerState = 'idle' | 'loading' | 'succeeded' | 'failed';

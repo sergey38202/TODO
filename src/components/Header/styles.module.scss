@@ -1,0 +1,55 @@
+@import "../../styles/variables";
+
+.Header {
+    margin-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Kanit;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.titleLight {
+    color: $black;
+}
+
+.titleDark {
+    color: $white;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+
+    @media (max-width: 470px) {
+        flex-direction: column;
+        row-gap: 18px;
+    }
+}
+
+.searchControllers {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+
+    @media (max-width: 470px) {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.select {
+    @media (max-width: 470px) {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+.themeIcon {
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.Button {
+    display: inline-flex;
+    padding: 10px 22px;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: $purple;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary {
+    color: $white;
+    border: none;
+}
+
+.outlined {
+    color: $purple;
+    border: 1px solid $purple;
+    background: none;
+}

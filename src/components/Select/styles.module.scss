@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+.Select {
+    padding: 10px;
+    background: $purple;
+    border-radius: 5px;
+    color: $white;
+    font-family: Kanit;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    border: none;
+}
