@@ -44,7 +44,7 @@ This is a simple Todo app created to showcase frontend development skills using 
 - Local styles, types, and hooks files are organized within respective component folders.
 
 ### Demo
-[Live Demo](#) <!-- Add your live demo link once available -->
+[Live Demo](#) https://todo-v2-seven.vercel.app/
 
 ### Future Development
-There are currently no plans for additional features, but a backend might be added in the future.
+There are currently no plans for additional features, but a backend might be added in the future.git checkout 
